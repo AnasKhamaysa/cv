@@ -66,7 +66,7 @@ function downml() {
 }
 
 function downba() {
-    window.open("https://github.com/AnasKhamaysa/keystroke-biometric-authentication.git);
+    window.open("https://github.com/AnasKhamaysa/keystroke-biometric-authentication.git");
 }
 
 function downoracle() {
