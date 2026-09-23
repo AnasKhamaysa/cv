@@ -31,6 +31,7 @@ window.onload = function() {
   document.getElementById("datacom").onclick = downdatacom;
   document.getElementById("VB").onclick = downvb;
   document.getElementById("ML").onclick = downml;
+  document.getElementById("BA").onclick = downba;
   document.getElementById("oracle").onclick = downoracle;
   document.getElementById("intro_to_syber").onclick = downintrotosiber;
   document.getElementById("packet_tracer").onclick = downpackettracer;
@@ -62,6 +63,10 @@ function downvb() {
 
 function downml() {
     window.open("https://github.com/AnasKhamaysa/ML_Car_Price_Prediction.git");
+}
+
+function downba() {
+    window.open("https://github.com/AnasKhamaysa/keystroke-biometric-authentication.git);
 }
 
 function downoracle() {
