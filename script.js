@@ -32,6 +32,7 @@ window.onload = function() {
   document.getElementById("VB").onclick = downvb;
   document.getElementById("ML").onclick = downml;
   document.getElementById("BA").onclick = downba;
+  document.getElementById("leakage_aware").onclick = downleakage_aware;
   document.getElementById("oracle").onclick = downoracle;
   document.getElementById("intro_to_syber").onclick = downintrotosiber;
   document.getElementById("packet_tracer").onclick = downpackettracer;
@@ -67,6 +68,10 @@ function downml() {
 
 function downba() {
     window.open("https://github.com/AnasKhamaysa/keystroke-biometric-authentication.git");
+}
+
+function downleakage_aware() {
+    window.open("LEAKAGE-AWARE EVALUATION AND UNCERTAINTY QUANTIFICATION.pdf");
 }
 
 function downoracle() {
