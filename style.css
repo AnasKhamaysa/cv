@@ -158,7 +158,7 @@
     margin-top: 25px;
     line-height: 1.8;
   }
-  
+
   .projectDow ul {
     display: flex;
     flex-wrap: wrap;
@@ -187,6 +187,35 @@
     background: var(--accent);
     color: #fff;
   }
+
+  .researchDow ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .researchDow ul li {
+    flex: 1 1 45%;
+  }
+  
+  .researchDow button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: var(--card);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .researchDow button:hover {
+    background: var(--accent);
+    color: #fff;
+  }
   
   .skills-box {
     display: flex;
@@ -204,6 +233,35 @@
   }
   
   .skills-box span:hover {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .certificatesDow ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .certificatesDow ul li {
+    flex: 1 1 45%;
+  }
+  
+  .certificatesDow button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: var(--card);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .certificatesDow button:hover {
     background: var(--accent);
     color: #fff;
   }
